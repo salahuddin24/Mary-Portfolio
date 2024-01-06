@@ -66,8 +66,13 @@ nav a{
 .banner-content{
   max-width: 500px;
 }
-
+/* main section */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* section style */
+
 .about{
   padding: 130px;
   border-radius: 10px;
@@ -87,4 +92,15 @@ nav a{
   font-size: 18px;
 
 
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+
+}
+.about-info{
+  text-align: center;
+}
+#what-i-do-description{
+  padding: 30px 150px;
 }
